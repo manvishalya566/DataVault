@@ -1,5 +1,5 @@
-import { FilesSkeleton } from "../loading-skeletons/files-skeleton";
+import { DashboardSkeleton } from "./loading-skeletons/dashboard-skeleton";
 
 export default function Loading() {
-  return <FilesSkeleton />;
+  return <DashboardSkeleton />;
 }
